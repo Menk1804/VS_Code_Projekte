@@ -23,3 +23,4 @@ for tag, wert in enumerate(blutsauerstoff_sättigung):
         tage.append(tag)
 print(f'Tage mit einem Wert unter 90: {len(tage)}')
 
+
