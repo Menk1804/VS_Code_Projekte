@@ -43,3 +43,5 @@ welchome(name, 2)
 # frage nach dem namen dritten benutzers
 name = input("Wie heisst du? :")
 welchome(name, 3)
+
+
