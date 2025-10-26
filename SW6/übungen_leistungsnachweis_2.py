@@ -35,8 +35,8 @@ def ist_kompatible(empfangende_bg, spendende_bg):
         "O+" : ["0-", "0+"],
         "O-" : ["0-"]
     }
-    kompatibel = spendende_bg in kompatibel[empfangende_bg]
-    return kompatibel
+    kompatibiliteat = spendende_bg in kompatibiliteat[empfangende_bg]
+    return kompatibiliteat
 
 #blutgruppe der empfänger Fragen
 empfangende_bg = input("Welche Blutgruppe hat der Empfänger?")
