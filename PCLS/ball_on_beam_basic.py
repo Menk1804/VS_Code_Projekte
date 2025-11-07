@@ -104,7 +104,7 @@ servo.freq(50)        # 50 PWM frequency (don't change!)
 
 # Specify the target position (in mm)
 # That's where the ball should go.
-x_set = 180
+x_set = 160
 e_old = 0
 e_int = 0
 x_glatt = 0
