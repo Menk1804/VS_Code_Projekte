@@ -1,0 +1,26 @@
+# Sinus von 1 wird ausgegeben.
+import math
+print(math.sin(1))
+
+# Es wird eine zufällige Nummer zwischen 1 und 10 zurückgegeben
+import random
+print(random.uniform(1, 10))
+
+
+# Mit from können bestimmte Bestanteile eines Moduls importiert werden.
+from math import sin, pi
+print(sin(pi/2))
+
+# Es wird eine Liste ausgegeben.
+import sys
+print(sys.builtin_module_names)
+
+
+# Zeigt den Pfad es aktuellen Modduls an.
+import io
+print(io.__file__)
+
+
+# # Mit der funktion help können Informationen über das Modul nachgeschlagen werden.
+# help(random.uniform)
+
