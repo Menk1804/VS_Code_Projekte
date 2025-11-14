@@ -10,11 +10,11 @@ SSID =  "iot-ZHAW"
 PASSWORD = "5ne25-5568-zFhHZ"
 
 # MQTT brokers
-MQTT_ADDRESS    = "test.mosquitto.org"      # URL of the MQTT broker server
-# MQTT_ADDRESS = "broker.hivemq.com"        # URL of the MQTT broker server
+#MQTT_ADDRESS    = "test.mosquitto.org"      # URL of the MQTT broker server
+MQTT_ADDRESS = "broker.hivemq.com"        # URL of the MQTT broker server
 
 # MQTT topics
-MQTT_BASE_TOPIC = "zhaw/pcls/demo"
+MQTT_BASE_TOPIC = "zhaw/pcls/vonwemel" # Eigener Surfername
 MQTT_SEND_TOPIC = MQTT_BASE_TOPIC + "/from_pico"
 MQTT_RECEIVE_TOPIC = MQTT_BASE_TOPIC + "/to_pico"
 
