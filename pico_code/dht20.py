@@ -1,5 +1,6 @@
 from machine import I2C
 from time import sleep_ms
+
 class DHT20(object):
     def __init__(self, i2c):
         self.i2c = i2c
@@ -26,9 +27,9 @@ class DHT20(object):
         return data[0]
     
     def init(self):
-        i2c.writeto(0x38, bytes([0xa8,0x00,0x00]))
+        self.i2c.writeto(0x38, bytes([0xa8,0x00,0x00]))
         sleep_ms(10)
-        i2c.writeto(0x38, bytes([0xbe,0x08,0x00]))
+        self.i2c.writeto(0x38, bytes([0xbe,0x08,0x00]))
         
     def calc_crc8(self,data):
         crc = 0xff
