@@ -1,0 +1,3 @@
+# Funktionen
+def addition ():
+    
