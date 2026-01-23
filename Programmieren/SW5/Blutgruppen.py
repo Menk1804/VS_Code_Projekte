@@ -22,5 +22,5 @@ spendende_bg = input('Welche Blutgruppe hat die Spender:in? : ')
 # kompatibilität prüfen
 if ist_kompatible(empfangende_bg, spendende_bg):
     print('Die Spende ist kompatibel')
-else:
+else
     print('Die Spende ist nicht kompatibel')
